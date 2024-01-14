@@ -1,10 +1,10 @@
 {
-  "name": "vue3-persian-datetime-picker",
+  "name": "saraf-vue3-persian-datetime-picker",
   "description": "A vue plugin to select jalali date and time",
-  "version": "1.2.2",
-  "author": "Mohammad Talkhabi",
+  "version": "1.0.3",
+  "author": "Mohammad Hosssein nayeb agha",
   "license": "MIT",
-  "main": "dist/vue3-persian-datetime-picker.common.js",
+  "main": "dist/saraf-vue3-persian-datetime-picker.common.js",
   "keywords": [
     "vuejs",
     "persian",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/talkhabi/vue3-persian-datetime-picker"
+    "url": "git+https://github.com/mhnayeb/vue3-persian-datetime-picker.git"
   },
   "files": [
     "src",
@@ -32,8 +32,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "buildAll": "npm run export-common & npm run export-umd",
-    "export-common": "vue-cli-service build --target lib --name Vue3PersianDatetimePicker --filename vue3-persian-datetime-picker src/picker/Vue3PersianDatetimePicker.vue --formats commonjs --no-clean",
-    "export-umd": "vue-cli-service build --target lib --name Vue3PersianDatetimePicker --filename vue3-persian-datetime-picker src/picker/Vue3PersianDatetimePicker.vue --formats umd,umd-min --no-clean"
+    "export-common": "vue-cli-service build --target lib --name Vue3PersianDatetimePicker --filename saraf-vue3-persian-datetime-picker src/picker/SarafVue3PersianDatetimePicker.vue --formats commonjs --no-clean",
+    "export-umd": "vue-cli-service build --target lib --name Vue3PersianDatetimePicker --filename saraf-vue3-persian-datetime-picker src/picker/SarafVue3PersianDatetimePicker.vue --formats umd,umd-min --no-clean"
   },
   "dependencies": {
     "moment-jalaali": "^0.9.4",
@@ -96,5 +96,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/mhnayeb/vue3-persian-datetime-picker/issues"
+  },
+  "homepage": "https://github.com/mhnayeb/vue3-persian-datetime-picker#readme"
 }
