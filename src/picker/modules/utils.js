@@ -1,3 +1,5 @@
+import moment from 'moment-jalaali'
+
 let toString = Object.prototype.toString,
   hasOwnProperty = Object.prototype.hasOwnProperty
 const tools = {
@@ -33,9 +35,9 @@ const tools = {
     // if last one is own, then all properties are own.
 
     var key
-    for (key in obj);
+    for (key in obj)
 
-    return key === undefined || hasOwnProperty.call(obj, key)
+      return key === undefined || hasOwnProperty.call(obj, key)
   }
 }
 

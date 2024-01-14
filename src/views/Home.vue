@@ -2,7 +2,7 @@
   <div class="home">
     <h1>{{ pageTitle }}</h1>
     <div>
-      <date-picker v-model="date" />
+      <date-picker simple />
       {{ date }}
     </div>
 
@@ -15,6 +15,7 @@
 
 <script>
 import Vue3PersianDatetimePicker from '@/picker/Vue3PersianDatetimePicker'
+
 export default {
   name: 'Home',
   components: {
